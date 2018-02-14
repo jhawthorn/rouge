@@ -10,12 +10,12 @@ module Rouge
       style Comment::Single,                  :fg => '#999988', :italic => true
       style Comment::Special,                 :fg => '#999999', :italic => true, :bold => true
       style Comment,                          :fg => '#999988', :italic => true
-      style Error,                            :fg => '#a61717', :bg => '#e3d2d2'
-      style Generic::Deleted,                 :fg => '#000000', :bg => '#ffdddd'
+      style Error,                            :fg => '#a61717'
+      style Generic::Deleted,                 :fg => '#000000'
       style Generic::Emph,                    :fg => '#000000', :italic => true
       style Generic::Error,                   :fg => '#aa0000'
       style Generic::Heading,                 :fg => '#999999'
-      style Generic::Inserted,                :fg => '#000000', :bg => '#ddffdd'
+      style Generic::Inserted,                :fg => '#000000'
       style Generic::Output,                  :fg => '#888888'
       style Generic::Prompt,                  :fg => '#555555'
       style Generic::Strong,                  :bold => true
@@ -65,7 +65,7 @@ module Rouge
       style Operator::Word,                   :fg => '#000000', :bold => true
       style Operator,                         :fg => '#000000', :bold => true
       style Text::Whitespace,                 :fg => '#bbbbbb'
-      style Text,                             :bg => '#f8f8f8'
+      style Text
     end
   end
 end
